@@ -3,9 +3,351 @@
 {% block title %}Page d'accueil{% endblock %}
 
 {% block body %}
-        <div class="jumbotron jumbotron-fluid text-center">
-            <div class="container">
-                <h1>Accueil</h1>
+
+    <main class="animsition-overlay" data-animsition-overlay="true">
+        <section class="home-slider" id="up">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide flex-min-height-box home-slide red-slide">
+                    <div class="slide-bg" style="background-image:url(assets/images/slider/slider_creativ.png)"></div>
+                    <div class="home-slider-content flex-min-height-inner dark-bg-1">
+                        <div class="container top-bottom-padding-120 flex-container response-999">
+                            <div class="six-columns">
+                                <h2 class="large-title-bold">
+                                    <span class="slider-title-fill slider-title-creativ slider-tr-delay01" data-text="Black & White" style="color: white">Black & White</span><br>
+                                    <span class="slider-title-fill slider-title-creativ slider-tr-delay02" data-text="Art Institute">Art Institute</span><br>
+                                    <!--<span class="slider-title-fill slider-tr-delay03" data-text="Services">Services</span>-->
+                                </h2>
+                                <div class="small-title-oswald text-height-20 d-flex-wrap top-margin-20">
+                                    <span class="slider-title-fill slider-title-fill-creativ slider-tr-delay04 top-margin-10" data-text="Photographie">Photographie <br>& Retouche</span>
+                                    <span class="slider-title-fill slider-title-fill-creativ slider-tr-delay05 top-margin-10" data-text="Stratégie">Stratégie <br>Publicitaire</span>
+                                    <span class="slider-title-fill slider-title-fill-creativ slider-tr-delay06 top-margin-10" data-text="Création">Création <br>Publicitaire</span>
+                                    <span class="slider-title-fill slider-title-fill-creativ slider-tr-delay07 top-margin-10" data-text="Animation">Animation <br>Video</span>
+                                </div>
+                                <div class="arrow-btn-box slider-fade slider-tr-delay07 top-margin-30">
+                                    <a href="#" class="arrow-btn pointer-large">Voir le programme</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide flex-min-height-box home-slide">
+                    <div class="slide-bg" style="background-image:url(assets/images/slider/slider_photographie.png)"></div>
+                    <div class="home-slider-content flex-min-height-inner dark-bg-1">
+                        <div class="container top-bottom-padding-120 flex-container response-999">
+                            <div class="six-columns six-offset">
+                                <div class="content-left-margin-40">
+                                    <h3 class="large-title-bold photographie text-color-4">
+                                        <span class="slider-overlay2 slider-tr-delay01">Photographie</span><br>
+                                        <span class="slider-overlay2 slider-tr-delay02">& retouches images</span><br>
+                                    </h3>
+                                    <h2 class="slider-overlay2 photographie-subtitle">Du shooting</h2>
+                                    <h2 class="slider-overlay2 photographie-subtitle">a la retouche photo...</h2>
+                                    <div class="slider-fade slider-tr-delay04 top-margin-30">
+                                        <div class="border-btn-box border-btn-box-photographie pointer-large">
+                                            <div class="border-btn-inner">
+                                                <a href="#" class="border-btn-photographie" data-text="S'inscrire">S'inscrire</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide flex-min-height-box home-slide">
+                    <div class="slide-bg overlay-loading2 overlay-dark-bg-1" style="background-image:url(assets/images/slider/slider_creation-publicitaire.png)"></div>
+                    <div class="home-slider-content flex-min-height-inner dark-bg-1">
+                        <div class="container top-bottom-padding-120 flex-container response-999">
+                            <div class="six-columns six-offset">
+                                <div class="content-left-margin-40">
+                                    <h2 class="large-title-bold">
+                                        <span class="slider-title-fill slider-title-creation slider-tr-delay01" data-text="Creations">Creations</span><br>
+                                        <span class="slider-title-fill slider-title-creation slider-tr-delay02" data-text="Publicitaire">Publicitaire</span><br>
+                                        <span class="slider-title-fill slider-title-digitale slider-tr-delay03" data-text="& Digitale">& Digitale</span>
+                                    </h2>
+                                    <p class="p-style-bold-up text-height-20 d-flex-wrap">
+                                        <span class="slider-title-fill slider-title-fill-creation slider-tr-delay04" data-text="Le duo graphiste">Le duo graphiste </span>
+                                        <span class="slider-title-fill slider-title-fill-creation slider-tr-delay05" data-text="& concepteur redacteur">& concepteur redacteur</span>
+                                        <span class="slider-title-fill slider-title-fill-digitale slider-tr-delay06" data-text="face au biref des mains de maitres">face au biref des mains de maitres</span>
+                                    </p>
+                                    <div class="slider-fade slider-tr-delay07 top-margin-30">
+                                        <div class="border-btn-box border-btn-red pointer-large">
+                                            <div class="border-btn-inner">
+                                                <a href="#" class="border-btn" data-text="S'inscrire">S'inscrire</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide flex-min-height-box home-slide">
+                    <div class="slide-bg" style="background-image:url(assets/images/slider/slider_strategie.png)"></div>
+                    <div class="home-slider-content flex-min-height-inner dark-bg-2">
+                        <div class="container top-bottom-padding-120 flex-container response-999">
+                            <div class="six-columns six-offset">
+                                <div class="content-left-margin-40">
+                                    <h3 class="large-title-bold text-color-4">
+                                        <span class="slider-overlay2 slider-tr-delay01">Strategie</span><br>
+                                        <span class="slider-overlay2 slider-tr-delay02">publicitaire</span><br>
+                                    </h3>
+                                    <h2 class="slider-overlay2 strategie red-color">La strategie publicitaire</h2><br>
+                                    <h2 class="slider-overlay2 strategie red-color">de A à Z</h2><br>
+                                    <div class="slider-fade slider-tr-delay04 top-margin-30">
+                                        <div class="border-btn-box pointer-large">
+                                            <div class="border-btn-inner">
+                                                <a href="#" class="border-btn" data-text="S'inscrire">S'inscrire</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
+
+            <div class="swiper-button-next">
+                <div class="slider-arrow-next-box">
+                    <span class="slider-arrow-next"></span>
+                </div>
+            </div>
+            <div class="swiper-button-prev">
+                <div class="slider-arrow-prev-box">
+                    <span class="slider-arrow-prev"></span>
+                </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+            <a href="#down" class="scroll-btn pointer-large">
+                <div class="scroll-arrow-box">
+                    <span class="scroll-arrow"></span>
+                </div>
+                <div class="scroll-btn-flip-box">
+                    <span class="scroll-btn-flip" data-text="Defiler">Defiler</span>
+                </div>
+            </a>
+        </section>
+
+        <section id="down" class="dark-bg-1 flex-min-height-box">
+            <div class="flex-min-height-inner">
+                <div class="container small top-bottom-padding-120">
+                    <div data-animation-container class="flex-container">
+                        <div class="twelve-columns text-center">
+                            <h2 class="large-title text-height-12">
+                                <span data-animation-child class="title-fill" data-animation="title-fill-anim" data-text="La creativ">La creativ</span><br>
+                                <span data-animation-child class="title-fill tr-delay01" data-animation="title-fill-anim" data-text="Master Class">Master Class</span>
+                            </h2>
+                        </div>
+                        <div class="twelve-columns">
+                            <div class="">
+                                <p data-animation-child class="p-style-medium text-color-4 fade-anim-box tr-delay02" data-animation="fade-anim">
+                                    <strong>Vos projets créatifs réalisés de mains de maîtres</strong><br>
+                                    Bienvenue à cette première édition de la CREATIV MASTER CLASS, organisée par <a href="#">Black & White Art Institue</a>.
+                                    Un programme de formation divisé en 5 sessions avec 5 disciplines et 5 experts hautement qualifiés dans leur domaine respectif.
+                                    Durant 65 semaines reparties en 450h de cours, vous apprendrez les bases de la
+                                    <a href="#" title="Inscrivez-vous">Photographie</a> en passant par la
+                                    <a href="#">Création publicitaire</a>, la <a href="#">stratégie publicitaire</a>,
+                                    la <a href="#">création digitale</a> et enfin l'<a href="#">animation vidéo</a>
+                                    (motion design).<br>
+                                </p>
+                                <p data-animation-child class="p-style-medium text-color-4 fade-anim-box tr-delay02" data-animation="fade-anim">
+                                    Vous êtes créatif? Un rêveur? Débrouillard et passionné de la publicité? Nous vous invitons à rejoindre
+                                    ce MASTER CLASS initié par la première école de créatifs africains.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="light-bg-1 bottom-padding-30 top-padding-120" data-midnight="black">
+            <div data-animation-container class="container small bottom-padding-60 text-center">
+                <h2 data-animation-child class="large-title text-height-10 text-color-1 overlay-anim-box2" data-animation="overlay-anim2">Les disciplines</h2><br>
+                <p data-animation-child class="fade-anim-box tr-delay02 text-color-1 xsmall-title-oswald top-margin-5" data-animation="fade-anim"></p>
+            </div>
+            <div class="bottom-padding-90">
+                <div class="portfolio-content flex-min-height-box">
+                    <div class="portfolio-content-inner flex-min-height-inner">
+                        <div class="flex-container container small">
+                            <div data-animation-container class="six-columns">
+                                <div class="content-right-margin-40">
+                                    <h3 class="title-style text-color-1">
+                                        <span data-animation-child class="overlay-anim-box2 overlay-dark-bg-2 tr-delay01" data-animation="overlay-anim2">Photographie</span><br>
+                                        <span data-animation-child class="overlay-anim-box2 overlay-dark-bg-2 tr-delay02" data-animation="overlay-anim2">& retouches images</span><br>
+                                    </h3><br>
+                                    <span class="small-title-oswald photographie-color overlay-anim-box2" data-animation="overlay-anim2">Du shooting à la retouche...</span>
+                                    <p data-animation-child class="p-style-small text-color-0 fade-anim-box tr-delay04" data-animation="fade-anim">
+                                        Notre programme se compose de 4 phases progressives reparti sur 90 heures, au cours desquelles nous vous fairont découvrir les bases
+                                        professionnelles du métier de photographie, et de developper surtout votre créativité.
+                                    </p>
+
+                                    <div data-animation-child class="arrow-btn-box top-margin-30 fade-anim-box tr-delay05" data-animation="fade-anim">
+                                        <a href="#" class="arrow-btn pointer-large animsition-link">S'inscrire</a>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="six-columns top-padding-60">
+                                <a href="#" class="portfolio-content-bg-box pointer-large hover-box hidden-box animsition-link">
+                                    <div class="portfolio-content-bg hover-img overlay-anim-box2 overlay-dark-bg-2" data-animation="overlay-anim2" style="background-image:url(assets/images/slider/slider_photographie.png)"></div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bottom-padding-90">
+                <div class="portfolio-content flex-min-height-box">
+                    <div class="portfolio-content-inner flex-min-height-inner">
+                        <div class="flex-container reverse container small">
+                            <div class="six-columns top-padding-60">
+                                <a href="#" class="portfolio-content-bg-box pointer-large hover-box hidden-box animsition-link">
+                                    <div class="portfolio-content-bg hover-img overlay-anim-box2 overlay-dark-bg-2" data-animation="overlay-anim2" style="background-image:url(assets/images/slider/slider_strategie.png)"></div>
+                                </a>
+                            </div>
+                            <div data-animation-container class="six-columns">
+                                <div class="content-left-margin-40">
+                                    <h3 class="title-style text-color-1">
+                                        <span data-animation-child class="overlay-anim-box2 overlay-dark-bg-2 tr-delay01" data-animation="overlay-anim2">Stratégie</span><br>
+                                        <span data-animation-child class="overlay-anim-box2 overlay-dark-bg-2 tr-delay02" data-animation="overlay-anim2">Publicitaire</span><br>
+                                        <!--<span data-animation-child class="overlay-anim-box2 overlay-dark-bg-2 tr-delay03" data-animation="overlay-anim2"></span>-->
+                                    </h3><br>
+                                    <span class="small-title-oswald strategie-color overlay-anim-box2" data-animation="overlay-anim2">La stratégie publicitaire de A à Z</span>
+                                    <p data-animation-child class="p-style-small text-color-0 fade-anim-box tr-delay04" data-animation="fade-anim">
+                                        Une publicité fonctionne, quand elle a atteind le public de façon a crée un besoin. C'est l'objectif même d'une campagne. Pour cela, il a fallut
+                                        connaitre et comprendre les motivations d'achats des consommateurs, afin d'adapter le message qui transforme le produit en objet de désir. Au
+                                        cours de cette master class, vous aller appendre tous les rouages du metier de planneurs stratégiques, connaitres les théories majeures de
+                                        communicaton publicitaire notamment: la publicité mécaniste, la publicité projective ou intégrative...
+                                    </p>
+
+                                    <div data-animation-child class="arrow-btn-box top-margin-30 fade-anim-box tr-delay05" data-animation="fade-anim">
+                                        <a href="#" class="arrow-btn pointer-large animsition-link">S'inscrire</a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bottom-padding-90">
+                <div class="portfolio-content flex-min-height-box">
+                    <div class="portfolio-content-inner flex-min-height-inner">
+                        <div class="flex-container container small">
+                            <div data-animation-container class="six-columns">
+                                <div class="content-right-margin-40">
+                                    <h3 class="title-style text-color-1">
+                                        <span data-animation-child class="overlay-anim-box2 overlay-dark-bg-2 tr-delay01" data-animation="overlay-anim2">Creation</span><br>
+                                        <span data-animation-child class="overlay-anim-box2 overlay-dark-bg-2 tr-delay02" data-animation="overlay-anim2">publicitaire</span><br>
+                                        <span data-animation-child class="overlay-anim-box2 overlay-dark-bg-2 tr-delay03" data-animation="overlay-anim2"></span>
+                                    </h3>
+                                    <span class="small-title-oswald creation-publicitaire-color overlay-anim-box2" data-animation="overlay-anim2">
+											Le duo graphiste & concepteur <br> redacteur face a un bref.
+										</span>
+                                    <p data-animation-child class="p-style-small text-color-0 fade-anim-box tr-delay04" data-animation="fade-anim">
+                                        Travailler en agence de publicité, être un directeur artistique en duo avec un concepteur rédacteur confiant sur une campagne
+                                        360° vous stimule? Optez pour cette master class découpé en 3 modules denses et par la réalisation de projets professionnels
+                                        concrets. L'objectif première de cette formation est de former des duos créatifs notamment DA/CR
+                                    </p>
+
+                                    <div data-animation-child class="arrow-btn-box top-margin-30 fade-anim-box tr-delay05" data-animation="fade-anim">
+                                        <a href="#" class="arrow-btn pointer-large animsition-link">S'inscrire</a>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="six-columns top-padding-60">
+                                <a href="#" class="portfolio-content-bg-box pointer-large hover-box hidden-box animsition-link">
+                                    <div class="portfolio-content-bg hover-img overlay-anim-box2 overlay-dark-bg-2" data-animation="overlay-anim2" style="background-image:url(assets/images/slider/slider_creation.png)"></div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-padding-90">
+                <div class="portfolio-content flex-min-height-box">
+                    <div class="portfolio-content-inner flex-min-height-inner">
+                        <div class="flex-container reverse container small">
+                            <div class="six-columns top-padding-60">
+                                <a href="#" class="portfolio-content-bg-box pointer-large hover-box hidden-box animsition-link">
+                                    <div class="portfolio-content-bg hover-img overlay-anim-box2 overlay-dark-bg-2" data-animation="overlay-anim2" style="background-image:url(assets/images/slider/slider_creation-digitale.png)"></div>
+                                </a>
+                            </div>
+                            <div data-animation-container class="six-columns">
+                                <div class="content-left-margin-40">
+                                    <h3 class="title-style text-color-1">
+                                        <span data-animation-child class="overlay-anim-box2 overlay-dark-bg-2 tr-delay01" data-animation="overlay-anim2">Création</span><br>
+                                        <span data-animation-child class="overlay-anim-box2 overlay-dark-bg-2 tr-delay02" data-animation="overlay-anim2">Digitale</span><br>
+                                    </h3><br>
+                                    <span class="small-title-oswald creation-digitale-color overlay-anim-box2" data-animation="overlay-anim2">
+											Vos projets créatifs réalisés de mains de maîtres
+										</span>
+                                    <p data-animation-child class="p-style-small text-color-0 fade-anim-box tr-delay04" data-animation="fade-anim">
+                                        Le métier de développeur, webmaster, est devenu l'un des métiers les plus démandés au monde. Les développeurs connaissent
+                                        rarement les périodes d'inactivités prolongés. <a href="#">Black & White Art Institute</a> vous donne la possibilité de
+                                        devenir un genie dans ce domaine, d'apprendre, maitriser toute l'architecture des blogs, réseaux sociaux, site e-commerce,
+                                        API, de développer des applications mobiles et de construire votre propre projet grâce à cette master class.
+                                    </p>
+
+                                    <div data-animation-child class="arrow-btn-box top-margin-30 fade-anim-box tr-delay05" data-animation="fade-anim">
+                                        <a href="project.html" class="arrow-btn pointer-large animsition-link">S'inscrire</a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bottom-padding-90">
+                <div class="portfolio-content flex-min-height-box">
+                    <div class="portfolio-content-inner flex-min-height-inner">
+                        <div class="flex-container container small">
+                            <div data-animation-container class="six-columns">
+                                <div class="content-right-margin-40">
+                                    <h3 class="title-style text-color-1">
+                                        <span data-animation-child class="overlay-anim-box2 overlay-dark-bg-2 tr-delay01" data-animation="overlay-anim2">Animation</span><br>
+                                        <span data-animation-child class="overlay-anim-box2 overlay-dark-bg-2 tr-delay02" data-animation="overlay-anim2">Video (motion design)</span><br>
+                                    </h3><br>
+                                    <span class="small-title-oswald animation-color overlay-anim-box2" data-animation="overlay-anim2">
+											Vos projets créatifs <br> Réalisés de mains de maîtres
+										</span>
+                                    <p data-animation-child class="p-style-small text-color-0 fade-anim-box tr-delay04" data-animation="fade-anim">
+                                        Le motion design, aussi appelé animation graphique, graphisme animé, conception du mouvement au conception graphique animée1
+                                        est une forme d'art visuel consitant à créer des oeuvres animées; il implique d'utiliser le mouvement comme principal outil graphique
+                                        et artistique.
+                                    </p>
+                                    <p data-animation-child class="p-style-small text-color-0 fade-anim-box tr-delay04" data-animation="fade-anim">
+                                        Grace à cette master class, vous allez acquérir toutes les étapes de la réalisation de projets animés. Vous allez notamment apprendre
+                                        les techniques d'écriture d'un storyboard, de stylisme, de photographie, de mise en scène et ensuite passer à l'étape de la réalisation
+                                        technique du projet.
+                                    </p>
+
+                                    <div data-animation-child class="arrow-btn-box top-margin-30 fade-anim-box tr-delay05" data-animation="fade-anim">
+                                        <a href="#" class="arrow-btn pointer-large animsition-link">S'inscrire</a>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="six-columns top-padding-60">
+                                <a href="#" class="portfolio-content-bg-box pointer-large hover-box hidden-box animsition-link">
+                                    <div class="portfolio-content-bg hover-img overlay-anim-box2 overlay-dark-bg-2" data-animation="overlay-anim2" style="background-image:url(assets/images/slider/slider_animation.png)"></div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
 {% endblock %}
